@@ -1,0 +1,54 @@
+From 1a01dd689a26c03605d180ca2d170715dc1ebdb5 Mon Sep 17 00:00:00 2001
+From: exam618 <SRIMCA\exam618@cs-u618.srimca.local>
+Date: Mon, 10 Dec 2018 09:38:22 +0530
+Subject: [PATCH] commit2
+
+---
+ README.md | 35 +++++++++++++++++++++++++++++++++++
+ 1 file changed, 35 insertions(+)
+ create mode 100644 README.md
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..42e8e99
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,35 @@
++# cart
++php-sql shopping cart
++
++A simple shopping cart built with PHP 5.5, SQLite database, CSS and HTML. Features of this application are:
++a.	Complete Shopping Cart Features
++•	User Login functionality
++•	Sessions to track users profile and preference
++•	Add/remove item from cart 
++•	List to view all available products
++•	Simple calculator to total goods added in the cart
++
++b.	Incomplete Shopping cart Features
++•	Payment integration
++•	Administrator Dashboard  
++•	Report generator
++
++REFERENCES
++1.	http://www.w3programmers.com/
++2.	http://www.w3schools.com/php
++
++/****************Software requirements******************************************/
++•	Wamp/xampp server
++•	Notepad++
++/***************Installation*****************************************************/
++
++
++1.	Download the source file from https://github.com/wanjugu/cart
++2.	Unzip the files to ‘www’ folder of your wamp server
++3.	Create a database ‘shoping_db’
++4.	Import the database - shoping_db.sql
++5.	Run the project on the browser (tested on chrome, firefox).
++
++
++
++Make changes in login.php and apply on null validation
+-- 
+2.7.4
+
