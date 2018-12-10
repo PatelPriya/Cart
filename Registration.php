@@ -7,3 +7,9 @@ Mobile No:<input type="text" name="txtmob"/><br/>
 </form>
 </body>
 </html>
+<?php
+if(isset($_POST("btnsub"))
+{
+	echo "Added Information";
+}
+?>
