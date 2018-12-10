@@ -62,8 +62,14 @@ echo "<strong>Incorrect username/password</strong>";
 }
 require("footer.php");
 ?>
-<?php if($_POST("userBox")=="") || $_POST("passBox")=="")
+<?php 
+
+if($_POST("userBox")=="") || $_POST("passBox")=="")
 {
 	echo "Please fill username or password";
+}
+else
+{
+	echo "Login Successfully";
 }
 ?>
